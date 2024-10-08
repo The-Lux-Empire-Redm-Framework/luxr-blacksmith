@@ -1,18 +1,24 @@
-# LuxR Redm Framework
-- Discord: https://discord.gg/YUV7ebzkqs
-- YouTube: https://www.youtube.com/@rexshack/videos
-- Tebex Store: https://rexshackgaming.tebex.io/
-- Support Me: https://ko-fi.com/rexshackgaming
+
+# The Lux Empire RedM Framework
+
+- Discord: https://discord.gg/Aj7KGKMDBU
+- GitHub: https://github.com/iboss21
+- Tebex Store: https://theluxempire.tebex.io/
+- The Lux RedM Framework: https://github.com/The-Lux-Empire-Redm-Framework
+- The Lux Empire FiveM Project: https://github.com/TheLuxEmpire-Success
 
 # luxr-blacksmith
-- For LuxR RedM Framework: https://discord.gg/eW3ADkf4Af
+
+- For The Lux RedM Framework: https://github.com/The-Lux-Empire-Redm-Framework
 
 # Dependencies
+
 - luxr-core
 - luxr-target
 - ox_lib
 
-# Installation:
+# Installation
+
 - Ensure that the dependencies are added and started.
 - Add `luxr-blacksmith` to your resources folder.
 - Items have already been added to `luxr-core`; check you have the latest version.
@@ -20,6 +26,7 @@
 - Add the following tables to your database: `luxr-blacksmith.sql`
 
 # Add Jobs
+
 - Add the following jobs to `luxr-core/shared/jobs.lua`:
 
 ```lua
@@ -114,6 +121,7 @@
 ```
 
 # Add SQL
+
 ```sql
 CREATE TABLE `luxr_blacksmith` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -155,5 +163,11 @@ INSERT INTO `management_funds` (`job_name`, `amount`, `type`) VALUES
 ('tumblacksmith', 0, 'boss');
 ```
 
-# Starting the Resource:
-- Add the following to your `server.cfg` file: `ensure luxr-blacksmith`
+# Starting the Resource
+
+- Add the following to your `server.cfg` file:
+
+```cfg
+ensure luxr-blacksmith
+```
+
